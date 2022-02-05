@@ -1,3 +1,4 @@
+//WAP to check prime number by taking input from the user
 package assignment_1;
 import java.util.Scanner;
 public class PrimeNumbers 
