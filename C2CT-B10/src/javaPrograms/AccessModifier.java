@@ -20,7 +20,7 @@ public class AccessModifier
 
 	public static void main(String[] args)
 	{
-		Program1 am = new Program1();
+		AccessModifier am = new AccessModifier();
 		am.displayStudents();
 		am.displayHours();
 		am.displayClass();
