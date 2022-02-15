@@ -1,15 +1,16 @@
 package day6;
-import java.io.*;
+import java.util.Scanner;
 public class Addition 
 {
-	 public static void main(String[] args) throws Exception 
-	   {
-		    InputStreamReader isr=new InputStreamReader (System.in);
-			BufferedReader br=new BufferedReader(isr);
-			System.out.println("enter two numbers");
-			int x=Integer.parseInt(br.readLine());
-			int y=Integer.parseInt(br.readLine());
-		    int sum=x+y;
-			System.out.println("sum = "+sum);
-	   }
+	public static void main(String[] args) 
+    {
+		Scanner sc=new Scanner(System.in);
+		System.out.println("Enter a first number ");
+		int num1=sc.nextInt();
+		System.out.println("Enter a second number ");
+		int num2=sc.nextInt();
+		
+		int sum=num1+num2;
+		System.out.println("sum = "+sum);
+	}
 }
