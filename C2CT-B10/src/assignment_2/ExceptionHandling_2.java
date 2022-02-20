@@ -15,6 +15,7 @@ public class ExceptionHandling_2
 		catch (Exception e) 
 		{
 			// TODO: handle exception
+			System.out.println(e);
 		}
 		System.out.println("Main ends");
 	}
