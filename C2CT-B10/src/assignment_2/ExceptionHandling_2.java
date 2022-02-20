@@ -9,7 +9,7 @@ public class ExceptionHandling_2
 		{
 			for(int i=3;i>=0;i--)
 			{
-			    System.out.println(a/i);  
+			    System.out.println(a/i);//Arithmetic exception  
 		    }		
 		} 
 		catch (Exception e) 
