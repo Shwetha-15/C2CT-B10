@@ -5,8 +5,16 @@ class Exception
 	static void func(int a,int b)  
 	{ 
 		   int[] arr={1,2,3};
-		   System.out.println(10/a);
-		   System.out.println(arr[b]);
+		   try 
+		   {
+			   System.out.println(10/a);
+			   System.out.println(arr[b]);
+		   }  
+		   catch (ArrayIndexOutOfBoundsException e) 
+		   {
+			    // TODO: handle exception
+			   System.out.println("Exception Handled");
+		   }
     }
 }
 public class ExceptionDemo 
