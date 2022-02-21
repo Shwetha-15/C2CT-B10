@@ -14,11 +14,14 @@ public class ExceptionHandling_3
 	   	}
 	   	public static void main (String[] args) 
 	   	{
-	   		try {
+	   		try 
+	   		{
 	   			canVote(20);
-		   		//canVote(10);
-			} finally {
-				// TODO: handle finally clause .
+	   			//canVote(10);
+			} 
+	   		catch (Exception e) 
+	   		{
+				// TODO: handle exception
 			}
 	   	}
 }
