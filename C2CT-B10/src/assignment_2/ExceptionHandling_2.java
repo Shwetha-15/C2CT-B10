@@ -12,7 +12,7 @@ public class ExceptionHandling_2
 			    System.out.println(a/i);//Arithmetic exception  
 		    }		
 		} 
-		catch (Exception e) 
+		catch (ArithmeticException e) 
 		{
 			// TODO: handle exception
 			System.out.println(e);
