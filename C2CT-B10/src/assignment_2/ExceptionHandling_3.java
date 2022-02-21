@@ -7,9 +7,9 @@ public class ExceptionHandling_3
 	   	   {
 	   		   try 
 	   		   {
-	   			   throw new Exception();
+	   			   throw new ArithmeticException();
 	   	       }
-	   		   catch (Exception e) 
+	   		   catch (ArithmeticException e) 
 	   		   {
 			       // TODO: handle exception
 	   			   System.out.println("you are not an adult!");
