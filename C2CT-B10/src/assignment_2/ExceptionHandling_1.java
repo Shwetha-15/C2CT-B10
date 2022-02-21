@@ -9,7 +9,7 @@ public class ExceptionHandling_1
 		{
 			System.out.println(5/0);//Arithmetic Exception occurs in this line because we can not divide 5 by 0	
 		} 
-		catch (Exception e) 
+		catch (ArithmeticException e) 
 		{
 			// TODO: handle exception
 			System.out.println(e);
