@@ -12,7 +12,7 @@ public class Program6
               }
               catch(ArrayIndexOutOfBoundsException e)
               {
-                  System.out.println("Out of bounds");                                                                  //no error
+                  System.out.println("Out of bounds");                                                                  
               }
          }
          catch(ArithmeticException e)
