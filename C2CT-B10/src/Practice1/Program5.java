@@ -13,7 +13,7 @@ public class Program5
             {
                 System.out.println("Out of bounds");
             }
-            System.out.println(4/0);                                                                              //error
+            System.out.println(4/0);                                                                              
         }
         catch(ArithmeticException e)
         {
