@@ -8,7 +8,7 @@ public class Program2
 		for(int i=3;i>=0;i--)
 		try
 		{
-		     System.out.println(a/i);                                          //error
+		     System.out.println(a/i);                                          
 		}
 		catch(ArithmeticException e)
 		{
