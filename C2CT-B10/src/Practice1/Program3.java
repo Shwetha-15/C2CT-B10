@@ -5,7 +5,7 @@ public class Program3
     {
     	 try
          {
-               System.out.println(4/0);                                                               //no error
+               System.out.println(4/0);                                                               
   	           //will not get printed
                System.out.println("end of try!");                                                  
           }
