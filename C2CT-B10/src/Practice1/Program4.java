@@ -5,7 +5,7 @@ public class Program4
     {
     	try
     	{
-            System.out.println(4/0);                                                                                  //no error
+            System.out.println(4/0);                                                                                  
         }
     	catch(ArithmeticException e)
         {
