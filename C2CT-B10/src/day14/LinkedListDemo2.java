@@ -1,5 +1,5 @@
 //using Generics type we add only particular datatype objects. 
-//In this we use string type Generics 
+//In this we use string type Generics and If we give any other data type it will give error
 package day14;
 import java.util.LinkedList;
 public class LinkedListDemo2 
