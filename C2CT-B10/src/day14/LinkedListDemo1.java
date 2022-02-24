@@ -10,6 +10,7 @@ public class LinkedListDemo1
 		l.add("Jai");
 		l.add(1.56);
 		l.add('S');
+		l.add(null);
 		l.add("DBOSS");
 		l.add(15);
 		l.add(15.16f);
