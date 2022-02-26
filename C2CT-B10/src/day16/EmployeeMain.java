@@ -13,15 +13,15 @@ public class EmployeeMain
 		l.add(new EmployeeDemo(004 ,"Nithya",62000.00,"nithya17@gmail.com"));
 		l.add(new EmployeeDemo(005 ,"DBOSS",100000.00,"darshan16@gmail.com"));
 		
-//		Iterator<EmployeeDemo> it1=l.iterator();
-//		while(it1.hasNext())
-//		{
-//			EmployeeDemo ed=it1.next();
-//			if(ed.getSalary()<=40000.00)
-//			{
-//				it1.remove();
-//			}
-//		}
+		Iterator<EmployeeDemo> it=l.iterator();
+		while(it.hasNext())
+		{
+			EmployeeDemo ed=it.next();
+			if(ed.getSalary()<=40000.00)
+			{
+				it.remove();
+			}
+		}
 		
 		Iterator<EmployeeDemo> it2=l.iterator();
 		while(it2.hasNext())
