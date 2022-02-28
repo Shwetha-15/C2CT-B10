@@ -10,7 +10,9 @@ public class ArrayListDemo2
 		a1.add(101);
 		a1.add(10);
 		a1.add(null);
+		a1.add(15);
 		a1.add("Hello");
+		a1.add(17);
 		a1.add('A');
 		a1.add(111.123);
 		System.out.println(a1);
@@ -27,6 +29,21 @@ public class ArrayListDemo2
 				if(i1 % 2 == 0)
 				{
 					System.out.println(i1);
+				}
+			}
+		}
+		System.out.println("the Odd values are");
+		System.out.println("--------------------");
+		for (int i = 0; i < a1.size(); i++) 
+		{
+			Object obj=a1.get(i);
+			
+			if(obj instanceof Integer)
+			{
+				Integer i2=(Integer)obj;
+				if(i2 % 2 != 0)
+				{
+					System.out.println(i2);
 				}
 			}
 		}
