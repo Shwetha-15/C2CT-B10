@@ -29,14 +29,17 @@ public class EqualsDemo3
 	}
     
     @Override
-    public boolean equals(Object obj) {
+    public boolean equals(Object obj) 
+    {
     	// TODO Auto-generated method stub
-    	if(obj instanceof EqualsDemo3) {
-            EqualsDemo3 equalsSample = (EqualsDemo3) obj;
-            if(equalsSample.getName().equals(this.getName())){
-                return true;
-            }
-        }
-        return false;       
+    	EqualsDemo3 e=(EqualsDemo3)obj;
+    	return this.name.equals(e.name) &&
+    			this.id==e.id;
+    }
+    
+    @Override
+    public String toString() {
+    	// TODO Auto-generated method stub
+    	return "name= "+name + " id= " +id;
     }
 }
