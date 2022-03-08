@@ -1,5 +1,5 @@
 package day18;
-public class Villan implements Actor
+public class Villan implements Actor,Hero
 {
     public void act()
     {
@@ -13,6 +13,14 @@ public class Villan implements Actor
     {
     	System.out.println("I am rude");
     }
+    public void acting()
+    {
+    	System.out.println("I will do acting");
+    }
+    public void fighting()
+    {
+    	System.out.println("I will do fighting");
+    }
     public static void main(String[] args) 
     {
 		Villan v=new Villan();
@@ -20,5 +28,7 @@ public class Villan implements Actor
 		v.speak();
 		v.comedy();
 		v.rude();
+		v.acting();
+		v.fighting();
 	}
 }
