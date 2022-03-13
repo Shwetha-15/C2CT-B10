@@ -7,9 +7,9 @@ public GSShopfactory(int accNo, String accNm, float charges) {
 		// TODO Auto-generated constructor stub
 	}
 
-	public GSShopfactory() {
-	// TODO Auto-generated constructor stub
-    }
+//	public GSShopfactory() {
+//	// TODO Auto-generated constructor stub
+//    }
 
 	@Override
 	public PrimeAcc getNewPrimeAccount() {
@@ -24,7 +24,7 @@ public GSShopfactory(int accNo, String accNm, float charges) {
 	}
 	public static void main(String[] args) 
 	 {
-		GSShopfactory shop=new GSShopfactory();
+		GSShopfactory shop=(GSShopfactory) new Object();
 		shop.getAccNm();
 		shop.getAccNo();
 		shop.getCharges();
