@@ -2,14 +2,14 @@ package march_10;
 
 public class GSShopfactory extends ShopFactory
 {
-	public GSShopfactory(int accNo, String accNm, float charges) {
+public GSShopfactory(int accNo, String accNm, float charges) {
 		super(accNo, accNm, charges);
 		// TODO Auto-generated constructor stub
 	}
 
 	public GSShopfactory() {
-		// TODO Auto-generated constructor stub
-	}
+	// TODO Auto-generated constructor stub
+    }
 
 	@Override
 	public PrimeAcc getNewPrimeAccount() {
@@ -34,6 +34,7 @@ public class GSShopfactory extends ShopFactory
 		shop.items(10);
 		shop.toString();
 	 }
+
 	@Override
 	public void items(float charges) {
 		// TODO Auto-generated method stub
