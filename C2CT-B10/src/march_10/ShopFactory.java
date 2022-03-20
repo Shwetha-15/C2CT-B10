@@ -1,13 +1,14 @@
 package march_10;
-
-abstract public class ShopFactory extends PrimeAcc
-{
-     public ShopFactory(int accNo, String accNm, float charges) {
-		super(accNo, accNm, charges);
-		// TODO Auto-generated constructor stub
+public abstract class ShopFactory 
+{	
+	public PrimeAcc getNewPrimeAcc(int AccNo, String AccNm, float charges, boolean isPrime) 
+	{
+		return null;
 	}
-     
-	abstract public PrimeAcc getNewPrimeAccount();
 	
-    abstract public NormalAcc getNewNormalAccount();
+	public NormalAcc getNormalAcc(int AccNo, String AccNm, float charges, float deliverCharges) 
+	{
+		return null;
+	}
 }
+

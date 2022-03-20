@@ -1,23 +1,22 @@
 package march_10;
-
-abstract public class NormalAcc extends ShoppAcc
+public abstract class NormalAcc extends ShopAcc 
 {
-	public NormalAcc(int accNo, String accNm, float charges) {
-		super(accNo, accNm, charges);
-		// TODO Auto-generated constructor stub
+	private final float deliveryCharges;
+    
+	public NormalAcc(int accNo, String accNm, float charges, float deliveryCharges) 
+	{
+		super(accNo, accNm,charges);
+		this.deliveryCharges = deliveryCharges;
 	}
-
-	final float deliveryCharge=8;
+	
+	public float getDeliveryCharges() 
+	{
+		return deliveryCharges;
+	}
 	
 	@Override
-    public void bookProduct(float charges)
-    {
-    	System.out.println("Inside Normal account");
-    }
-  
-    @Override
-    public String toString() {
-    	// TODO Auto-generated method stub
-    	return super.toString();
-    }
+	public void bookProduct(float bp)
+	{
+		super.bookProduct(bp);
+	}
 }
