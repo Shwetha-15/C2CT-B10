@@ -1,5 +1,4 @@
 package march_10;
-
 public class GSPrimeAcc extends PrimeAcc
 {
 	private static final float Charges = 100;

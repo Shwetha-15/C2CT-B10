@@ -1,5 +1,4 @@
 package march_10;
-
 public class GSShopfactory extends ShopFactory
 {
 	public PrimeAcc getNewPrimeAccount(int AccNo, String AccNm, float charges, boolean isPrime) {

@@ -1,5 +1,4 @@
 package march_10;
-
 public abstract class ShopAcc 
 {
 	private int accNo;
@@ -50,18 +49,14 @@ public abstract class ShopAcc
 		this.charges = charges;
 	}
 	
-	
 	public void items(float charges)
 	{
 		this.charges = charges;
 	}
 	
-	
 	@Override
 	public String toString()
 	{
 		return "["+this.accNm+","+this.accNo+","+this.charges+"]";
-	}
-	
-	
+	}	
 }
